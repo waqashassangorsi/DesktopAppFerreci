@@ -1,0 +1,23 @@
+{
+  "name": "my-whatsapp",
+  "version": "1.0.0",
+  "description": "\"Hello World\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w yourmodule"
+  },
+  "author": "sysbi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.6",
+    "electron-rebuild": "^3.2.7",
+    "font-awesome": "^4.7.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jquery": "^3.6.0",
+    "usb": "^2.4.3"
+  }
+}

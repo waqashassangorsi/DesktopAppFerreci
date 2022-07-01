@@ -1,0 +1,98 @@
+@import url('node_modules/font-awesome/css/font-awesome.min.css');
+.date_row{
+ justify-content: center;
+}
+.date_label{
+ margin-right: 9px;
+ color:#ff5656;
+ font-size: 19px;
+}
+.date_input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.export_pdf{
+    background-color:#ff5656;
+    border:none;
+    border-radius: 6px;
+}
+.messages_export{
+ color:black;   
+ 
+}
+.export_messagesrow{
+    border:1px solid black;
+}
+
+.data_p1{
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+.data_p2{
+    background-color: white;
+    padding: 8px;
+}
+.numbers_data{
+    border-left: 2px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+}
+.left_msg{
+    background: #707070;
+    border-radius: 9px;
+    padding: 7px;
+    float: left;
+    width: 82%;
+    margin-top: 25px;
+    color:#fff;
+}
+.left_msg p,.right_msg p{
+  font-weight: bolder;
+  margin-bottom: 1px;
+}
+.right_msg{
+    margin-top: 25px;
+    background: #ff5656;
+    border-radius: 9px;
+    padding: 7px;
+    float: right;
+    width: 82%;
+    color:#fff;
+}
+.phone_img{
+    height:40px;
+    width:30px;
+}
+.whatsappsocial_icons{
+  height: 38px;
+  width: 31px;  
+}
+.social_icons{
+  height: 33px;
+  width: 26px;
+}
+.msg_img{
+   height: 48px;
+   width: 43px;
+   border-radius: 50%;
+}
+.phone_data{
+    margin-top: 10px;
+}
+.phone_number{
+    font-weight: 600;
+}
+.messages_icon{
+    margin-left: 13px;
+    padding: 4px;
+    padding-bottom: 2px;
+}
+.messenger_text{
+    margin-left: 6px;
+}
+.messenger_btn{
+    background-color: #f2f2f2;
+}
+.all_icons:hover{
+    cursor:pointer;
+}
